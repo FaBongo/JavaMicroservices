@@ -1,4 +1,5 @@
-package com.microservices.productservice.model;
+package com.microservices.common.model;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,13 +12,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Data
+
 public class Product {
-    @Id
+    /*@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long id;*/
 
     private String name;
     private double price;
     private String description;
-
+    private String category;
+    //private Category categoryParent
 }

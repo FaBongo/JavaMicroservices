@@ -5,32 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="025b78fe-cdb9-4b61-9e4a-9f1cec8707aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/CategoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/dto/CategoryCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/dto/CategoryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category-service/src/test/java/com/microservices/categoryservice/CategoryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/microservices/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/microservices/common/CommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/microservices/common/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/microservices/common/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/test/java/com/microservices/common/CommonApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/dto/CategoryCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/dto/CategoryCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/dto/CategoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/dto/CategoryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/microservices/categoryservice/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/com/microservices/productservice/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/microservices/productservice/ProductServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bwgcshMnPH974Ndqkrl78vfk4Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,12 +53,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/paris/Desktop/PROJECTS 2024 INCH'ALLAH/PROJETS PERSO/JAVA/MICROSERVICES/PROJECTS/microservices/product-service",
-    "onboarding.tips.debug.path": "C:/Users/paris/Desktop/PROJECTS 2024 INCH'ALLAH/PROJETS PERSO/JAVA/MICROSERVICES/PROJECTS/microservices/category-service/src/main/java/com/microservices/Main.java"
+    "last_opened_file_path": "C:/Users/paris/Desktop/PROJECTS 2024 INCH'ALLAH/PROJETS PERSO/JAVA/MICROSERVICES/PROJECTS/microservices/common-service",
+    "onboarding.tips.debug.path": "C:/Users/paris/Desktop/PROJECTS 2024 INCH'ALLAH/PROJETS PERSO/JAVA/MICROSERVICES/PROJECTS/microservices/common-service/src/main/java/com/microservices/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paris\Desktop\PROJECTS 2024 INCH'ALLAH\PROJETS PERSO\JAVA\MICROSERVICES\PROJECTS\microservices\common-service" />
       <recent name="C:\Users\paris\Desktop\PROJECTS 2024 INCH'ALLAH\PROJETS PERSO\JAVA\MICROSERVICES\PROJECTS\microservices\product-service" />
       <recent name="C:\Users\paris\Desktop\PROJECTS 2024 INCH'ALLAH\PROJETS PERSO\JAVA\MICROSERVICES\PROJECTS\microservices\category-service" />
     </key>
@@ -74,7 +69,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CategoryServiceApplication">
+  <component name="RunManager" selected="Application.ProductServiceApplication">
     <configuration name="CategoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.microservices.categoryservice.CategoryServiceApplication" />
       <module name="category-service" />
@@ -103,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CategoryServiceApplication" />
         <item itemvalue="Application.ProductServiceApplication" />
+        <item itemvalue="Application.CategoryServiceApplication" />
       </list>
     </recent_temporary>
   </component>

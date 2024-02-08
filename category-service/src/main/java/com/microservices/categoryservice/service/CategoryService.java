@@ -20,6 +20,7 @@ public class CategoryService {
         Category category = Category.builder()
                 .name(categoryCreate.getName())
                 .description(categoryCreate.getDescription())
+                .parent_id(categoryCreate.getParent_id())
                 .build();
         categoryRepository.save(category);
         log.info("Category {} is saved",category.getName());
@@ -36,6 +37,7 @@ public class CategoryService {
                 .id(category.getId())
                 .name(category.getName())
                 .description(category.getDescription())
+                .parent_id(category.getParent_id())
                 .build();
     }
 }

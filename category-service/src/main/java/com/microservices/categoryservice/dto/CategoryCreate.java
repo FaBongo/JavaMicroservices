@@ -14,4 +14,5 @@ public class CategoryCreate {
 
     private String name;
     private String description;
+    private Long parent_id;
 }
